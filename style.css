@@ -1,0 +1,480 @@
+@font-face {
+    font-family: "futurak";
+    src: url(./assets/futurak.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 5px 50px;
+}
+
+.logo>img {
+    width: 165px;
+}
+
+.nav-icon {
+    display: flex;
+    gap: 40px;
+    margin-right: 6%;
+}
+
+.nav-icon>a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    padding-top: 18px;
+}
+
+.nav-icon>button {
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.nav-icon>.btn-order {
+    background-color: red;
+    border: none;
+    color: white;
+
+}
+
+.btn-order>i {
+    background-color: white;
+    color: #ED1C24;
+    padding: 6px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.first-img-cont {
+    width: 100%;
+}
+
+.first-img-cont>img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Header and top Image COmplete */
+
+
+.content-section {
+    margin-top: -5px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.top-heading {
+    padding-top: 6%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+span {
+    font-family: "futurak";
+    letter-spacing: 3px;
+
+}
+
+.top-heading>h2 {
+    font-size: 1.2em;
+}
+
+.top-heading>p {
+    padding-top: 10px;
+    font-size: 0.6em;
+    color: gray;
+}
+
+/* welcome Section Complete */
+.card-cont {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 10%;
+}
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding-top: 20px;
+}
+
+.card-img {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    /* width: 100%; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.card-img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.brand-button {
+    margin-top: 20px;
+    padding: 10px 45px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.thrd-cont {
+    background-color: #121111;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+
+}
+
+.thrd-heading {
+    color: white;
+    text-align: center;
+
+}
+
+.thrd-heading>h2>span {
+    letter-spacing: 3px;
+    font-size: 1.3em;
+
+
+}
+
+.thrd-heading>h2 {
+    font-size: 2.5em;
+}
+
+.thrd-heading>h1 {
+    font-size: 3em;
+    padding: 20px;
+}
+
+.thrd-heading>p {
+    letter-spacing: 2px;
+    font-size: 0.9em;
+    color: gray;
+    padding-bottom: 40px;
+}
+
+.thrd-flip-img {
+    width: 100%;
+    height: auto;
+}
+
+.section-top {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    /* gap: 10px; */
+    padding-bottom: 40px;
+    background-color: black;
+
+
+}
+
+.top-left {
+    background-color: #0F0F0F;
+    width: 50%;
+    height: 320px;
+    padding: 15px 15px;
+}
+
+.isla-red {
+    color: red;
+    font-size: 1.6em;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+
+.left-text>h1 {
+    padding-top: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+.addr {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.numb {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.left-text i {
+    padding-right: 8px;
+}
+
+.left-text>button {
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.left-text>button>i {
+    background-color: white;
+    color: #ED1C24;
+    padding: 6px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.top-right {
+    width: 50%;
+    height: 320px;
+
+}
+
+.right-img>img {
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Section Middle Start--------------------------------------------- */
+.section-middle {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    /* gap: 10px; */
+    padding-bottom: 40px;
+    background-color: black;
+
+
+}
+
+.top-left {
+    width: 50%;
+    height: 320px;
+    /* padding: 15px 15px; */
+}
+
+.isla-red {
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.right-text {
+    padding-left: 20px;
+    width: 50%;
+    height: 320px;
+    background: #0F0F0F;
+}
+
+.right-text>h1 {
+    padding-top: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+.addr {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.numb {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.right-text i {
+    padding-right: 8px;
+}
+
+.right-text>button {
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.right-text>button>i {
+    background-color: white;
+    color: #ED1C24;
+    padding: 6px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.top-left {
+    width: 50%;
+    height: 320px;
+
+}
+
+.right-img>img {
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* bottom Section Start--------  */
+.section-bottom {
+    padding: 40px;
+    width: 100%;
+    display: flex;
+    /* gap: 10px; */
+    padding-bottom: 40px;
+    background-color: black;
+
+
+}
+
+.top-left {
+    background-color: #0F0F0F;
+    width: 50%;
+    height: 320px;
+    padding: 15px 15px;
+}
+
+.isla-red {
+    color: red;
+    font-size: 1.6em;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+
+.left-text>h1 {
+    padding-top: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+.addr {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.numb {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.left-text i {
+    padding-right: 8px;
+}
+
+.left-text>button {
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+
+}
+
+.left-text>button>i {
+    background-color: white;
+    color: #ED1C24;
+    padding: 6px;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.top-right {
+    width: 50%;
+    height: 320px;
+
+}
+
+.right-img>img {
+    width: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Forth Container Start */
+.forth-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 255, 13);
+}
+
+.fth-text {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 2em;
+}
+
+.fth-cards-parent {
+
+    background-color: red;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 35px;
+    flex-wrap: wrap;
+
+}
+.fth-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.fth-img>img {
+    width: 100%;
+}
