@@ -201,88 +201,17 @@ span {
     padding: 40px;
     width: 100%;
     display: flex;
-    /* gap: 10px; */
     padding-bottom: 40px;
     background-color: black;
 
 
 }
-
-.top-left {
-    background-color: #0F0F0F;
-    width: 50%;
-    height: 320px;
-    padding: 15px 15px;
-}
-
-.isla-red {
-    color: red;
-    font-size: 1.6em;
-    letter-spacing: 5px;
-    font-weight: 100;
-}
-
-
-.left-text>h1 {
-    padding-top: 10px;
-    font-size: 2em;
-    color: white;
-}
-
-.addr {
-    padding-top: 20px;
-    font-size: 0.9em;
-    color: gray;
-}
-
-.numb {
-    padding-top: 20px;
-    font-size: 0.9em;
-    color: gray;
-}
-
-.left-text i {
-    padding-right: 8px;
-}
-
-.left-text>button {
-    margin-top: 50px;
-    border: 1px solid white;
-    padding: 10px 20px;
-    border-radius: 30px;
-    background-color: transparent;
-    color: white;
-
-}
-
-.left-text>button>i {
-    background-color: white;
-    color: #ED1C24;
-    padding: 6px;
-    border-radius: 100%;
-    margin-left: 10px;
-}
-
-.top-right {
-    width: 50%;
-    height: 320px;
-
-}
-
-.right-img>img {
-    width: 100%;
-    border-radius: 10px;
-    background-position: center;
-    background-size: cover;
-}
-
 
 /* Section Middle Start--------------------------------------------- */
 .section-middle {
     padding: 40px;
     width: 100%;
     display: flex;
-    /* gap: 10px; */
     padding-bottom: 40px;
     background-color: black;
 
@@ -292,7 +221,6 @@ span {
 .top-left {
     width: 50%;
     height: 320px;
-    /* padding: 15px 15px; */
 }
 
 .isla-red {
@@ -462,13 +390,14 @@ span {
     background-color: red;
     height: auto;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
-    padding: 35px;
+    padding: 45px;
     flex-wrap: wrap;
 
 }
-.fth-cont{
+
+.fth-cont {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -477,4 +406,302 @@ span {
 
 .fth-img>img {
     width: 100%;
+}
+
+/* five wala Contaniner Start */
+
+.sec-five-cont {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: blue;
+
+}
+
+.five-heading {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 2.0rem;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.five-cont {
+    width: 100%;
+    height: auto;
+    background: red;
+    display: flex;
+    height: 355px;
+    overflow: hidden;
+}
+
+.five-left-img {
+    width: 50%;
+    background-color: green;
+
+}
+
+.five-left-img>img {
+    object-fit: cover;
+    height: 400px;
+}
+
+.five-right-cont {
+    width: 50%;
+    background-color: rgb(255, 255, 0);
+
+}
+
+
+
+
+
+/* cjeck */
+.right-cont {
+    background-color: #0F0F0F;
+    width: 100%;
+    height: 400px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isla-red {
+    color: red;
+    font-size: 1.6em;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+
+.right-cont>h1 {
+    padding-top: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+.addr {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.numb {
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: gray;
+}
+
+.right-cont i {
+    padding-right: 8px;
+}
+
+.right-cont>button {
+    margin-top: 50px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    width: 30%;
+
+
+}
+
+.right-cont>button>i {
+    background-color: white;
+    color: #ED1C24;
+    padding: 6px;
+    border-radius: 100%;
+    margin-left: 10px;
+
+}
+
+/* Last Container Start */
+
+.last-sec-cont {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+}
+
+.last-sec-text {
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.last-sec-text>h2>.small-text {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.last-sec-card {
+    width: 100%;
+    height: auto;
+    background: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 35px;
+    padding-bottom: 50px;
+}
+
+.last-card {
+    border: 1px solid black;
+
+    padding: 15px 45px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.card-inner-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 20px;
+    /* gap: 20px; */
+}
+
+.card-inner-cont>img {
+    color: red;
+    border: none;
+    background-color: #EAEAEA;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card-red {
+    color: red;
+    letter-spacing: 5px;
+}
+
+.card-inner-cont>P {
+    padding: 10px;
+}
+
+footer {
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+.foter-part-first {
+    width: 90%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foot-part-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 35px;
+
+}
+
+.foot-part-1>p {
+    width: auto;
+    color: #B7B7B7;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
+.term-policy {
+    display: flex;
+    gap: 5px;
+}
+
+.term-policy>a {
+    color: #B7B7B7;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.foot-part-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.site-link>p {
+    color: #ffffff;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.site-link>a {
+    color: #B7B7B7;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.foot-part-3 {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+.contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact>.contact-t-h {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.contact>p {
+    color: #B7B7B7;
+
+}
+
+.foot-part-4 {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.follow-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.follow-icon>i {
+    color: white;
+    font-size: 1.3rem;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;
 }
